@@ -1,0 +1,34 @@
+# Dependencies (prevents thousands of package files from cluttering git)
+node_modules/
+*/node_modules/
+server/node_modules/
+client/node_modules/
+
+# Production builds
+dist/
+*/dist/
+build/
+client/dist/
+
+# Local embedded database files
+data/
+server/data/
+*.local
+
+# Environment variables
+.env
+server/.env
+server/.env.example
+*.env.local
+
+# Debug & system logs
+logs/
+*.log
+npm-debug.log*
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.gemini/
